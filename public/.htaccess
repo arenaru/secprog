@@ -1,0 +1,8 @@
+Require all granted
+Options -Indexes
+DirectoryIndex index.php
+
+# No dotfiles (.htaccess, .git, ...)
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>

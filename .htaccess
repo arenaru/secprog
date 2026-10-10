@@ -1,0 +1,4 @@
+# Safety net for when the whole project gets dropped into htdocs (common with XAMPP):
+# deny everything here, public/.htaccess re-allows only the document root.
+# The intended setup is DocumentRoot -> public/, in which case this file is never read.
+Require all denied
